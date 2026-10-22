@@ -1,51 +1,48 @@
 # Mini Projects on Data Analytics and Visualization
-### COER University, Roorkee, Uttarakhand
-**Master of Computer Applications (MCA) — III Semester | Session 2026–2027**  
+### Master of Computer Applications (MCA) — III Semester | Session 2026–2027
 **Lab Sheet-09: Mini Projects on Data Analytics and Visualization**
 
 [![Python Version](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-navy.svg)](https://pandas.pydata.org/)
 [![Plotly](https://img.shields.io/badge/Plotly-7.1.0-blueviolet.svg)](https://plotly.com/python/)
-[![Excel](https://img.shields.io/badge/Datasets-Excel%20%28.xlsx%29-green.svg)](datasets/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Excel Datasets](https://img.shields.io/badge/Datasets-Excel%20%28.xlsx%29-green.svg)](datasets/)
 
 ---
 
 ## 📌 Executive Overview
 
-This repository contains the complete implementation, datasets, interactive dashboards, high-resolution screenshots, and academic documentation for **Lab Sheet-09: Mini Projects on Data Analytics and Visualization** at COER University.
+This repository contains the complete implementation, datasets in Excel format, high-resolution dashboard screenshots, interactive web dashboards, and source code for **Lab Sheet-09: Mini Projects on Data Analytics and Visualization**.
 
-The repository encompasses two end-to-end analytical dashboard solutions:
+The repository comprises two end-to-end analytical projects:
 
 1. **Project 1: COVID-19 Data Analysis Dashboard**
-   - Analysis of global epidemiological time-series data across 12 countries over 36 months (2020–2022).
-   - Missing value auditing and domain-specific proportional imputation.
+   - Comprehensive analysis of global epidemiological time-series data across 12 countries over 36 months (2020–2022).
+   - Missing value auditing and proportional domain-specific imputation.
    - Dual-axis epidemic wave curves (New Cases vs. New Deaths).
-   - Country-wise comparative rankings, mortality rates (CFR), and vaccination rollout tracking.
+   - Country-wise comparative rankings, mortality rates (Case Fatality Rate - CFR), and vaccination rollout tracking.
    - High-resolution Executive Dashboard Screenshot and browser-based Interactive Plotly Dashboard.
 
 2. **Project 2: Sales Data Analysis Dashboard**
-   - Analysis of multi-regional retail and commercial transactions (5,000 orders spanning 2023–2025).
+   - Analysis of multi-regional commercial sales transactions (5,000 orders spanning 2023–2025).
    - Missing value detection and mode/baseline imputation.
    - Monthly sales revenue and net operating profit progression analysis.
-   - Customer segmentation (Consumer, Corporate, Home Office) and RFM profiling.
-   - Product category and sub-category profitability analysis (identifying profit leaders vs. discount margin drain).
+   - Customer segmentation (Consumer, Corporate, Home Office).
+   - Product category and sub-category profitability analysis (identifying profit leaders vs. loss leaders).
    - Regional distribution breakdown (West, East, Central, South).
    - High-resolution Executive Sales Dashboard Screenshot and browser-based Interactive Plotly Dashboard.
 
 ---
 
-## 📋 Academic Submission Guidelines Compliance
+## 📋 Submission Guidelines Compliance Checklist
 
-| Mandatory Submission Requirement | Delivered Item & Location | Format |
+| Mandatory Submission Requirement | Delivered Repository Asset | Format & Description |
 |:---|:---|:---:|
-| **1. Datasets in Excel Form** | [`datasets/covid_19_data.xlsx`](datasets/covid_19_data.xlsx)<br>[`datasets/sales_data.xlsx`](datasets/sales_data.xlsx) | Multi-Sheet `.xlsx` |
+| **1. Datasets in Excel Form** | [`datasets/covid_19_data.xlsx`](datasets/covid_19_data.xlsx)<br>[`datasets/sales_data.xlsx`](datasets/sales_data.xlsx) | **Multi-Sheet Microsoft Excel (`.xlsx`)** workbooks with raw data, cleaned data, and multi-dimensional summary sheets. |
 | **2. Datasets in CSV Form** | [`datasets/covid_19_data.csv`](datasets/covid_19_data.csv)<br>[`datasets/sales_data.csv`](datasets/sales_data.csv) | Standard `.csv` |
-| **3. Dashboard Screenshots** | [`Project1_COVID19_Data_Analysis/screenshots/covid19_executive_dashboard.png`](Project1_COVID19_Data_Analysis/screenshots/covid19_executive_dashboard.png)<br>[`Project2_Sales_Data_Analysis/screenshots/sales_executive_dashboard.png`](Project2_Sales_Data_Analysis/screenshots/sales_executive_dashboard.png) | 300 DPI High-Res `.png` |
-| **4. Source Code** | [`Project1_COVID19_Data_Analysis/src/`](Project1_COVID19_Data_Analysis/src/)<br>[`Project2_Sales_Data_Analysis/src/`](Project2_Sales_Data_Analysis/src/)<br>[`run_all.py`](run_all.py) | Modular Python Scripts |
-| **5. Jupyter Notebooks** | [`Project1_COVID19_Data_Analysis/notebooks/`](Project1_COVID19_Data_Analysis/notebooks/)<br>[`Project2_Sales_Data_Analysis/notebooks/`](Project2_Sales_Data_Analysis/notebooks/) | Interactive `.ipynb` |
-| **6. Academic Lab Report** | [`docs/Lab_Sheet_09_Report.md`](docs/Lab_Sheet_09_Report.md) | Full Academic Report |
-| **7. Viva Preparation Guide** | [`docs/Viva_Questions_and_Answers.md`](docs/Viva_Questions_and_Answers.md) | 35+ Viva Q&A |
+| **3. Dashboard Screenshots** | [`Project1_COVID19_Data_Analysis/screenshots/covid19_executive_dashboard.png`](Project1_COVID19_Data_Analysis/screenshots/covid19_executive_dashboard.png)<br>[`Project2_Sales_Data_Analysis/screenshots/sales_executive_dashboard.png`](Project2_Sales_Data_Analysis/screenshots/sales_executive_dashboard.png) | **300 DPI High-Resolution Executive Dashboard Screenshots** |
+| **4. Source Code** | [`Project1_COVID19_Data_Analysis/src/`](Project1_COVID19_Data_Analysis/src/)<br>[`Project2_Sales_Data_Analysis/src/`](Project2_Sales_Data_Analysis/src/) | Modular Python Scripts (Data loader, EDA, Dashboard generator) |
+| **5. Interactive Web Dashboards** | [`Project1_COVID19_Data_Analysis/outputs/covid_interactive_dashboard.html`](Project1_COVID19_Data_Analysis/outputs/covid_interactive_dashboard.html)<br>[`Project2_Sales_Data_Analysis/outputs/sales_interactive_dashboard.html`](Project2_Sales_Data_Analysis/outputs/sales_interactive_dashboard.html) | Standalone interactive **Plotly HTML dashboards** with tooltips and zooming |
+| **6. Jupyter Notebooks** | [`Project1_COVID19_Data_Analysis/notebooks/Project1_COVID19_Data_Analysis.ipynb`](Project1_COVID19_Data_Analysis/notebooks/Project1_COVID19_Data_Analysis.ipynb)<br>[`Project2_Sales_Data_Analysis/notebooks/Project2_Sales_Data_Analysis.ipynb`](Project2_Sales_Data_Analysis/notebooks/Project2_Sales_Data_Analysis.ipynb) | Interactive step-by-step `.ipynb` notebooks |
 
 ---
 
@@ -54,11 +51,11 @@ The repository encompasses two end-to-end analytical dashboard solutions:
 ### 1. COVID-19 Executive Analytics Dashboard
 ![COVID-19 Executive Dashboard](Project1_COVID19_Data_Analysis/screenshots/covid19_executive_dashboard.png)
 
-- **Interactive HTML Dashboard:** Open [`Project1_COVID19_Data_Analysis/outputs/covid_interactive_dashboard.html`](Project1_COVID19_Data_Analysis/outputs/covid_interactive_dashboard.html) in your browser.
-- **Key Global Metrics:**
+- **Interactive HTML Dashboard:** Open [`Project1_COVID19_Data_Analysis/outputs/covid_interactive_dashboard.html`](Project1_COVID19_Data_Analysis/outputs/covid_interactive_dashboard.html) in any browser.
+- **Key Global Epidemiological Metrics:**
   - **Total Confirmed Infections:** 80,006,448
-  - **Total Deaths:** 705,994 (CFR: 0.88%)
-  - **Total Recovered:** 73,900,724 (Recovery Rate: 92.37%)
+  - **Total Deaths:** 705,994 (Global CFR: 0.88%)
+  - **Total Recovered:** 73,900,724 (Global Recovery Rate: 92.37%)
   - **Cumulative Vaccines Administered:** 4,682,484,804 doses
 
 ---
@@ -66,7 +63,7 @@ The repository encompasses two end-to-end analytical dashboard solutions:
 ### 2. Commercial Sales & Retail Performance Dashboard
 ![Sales Executive Dashboard](Project2_Sales_Data_Analysis/screenshots/sales_executive_dashboard.png)
 
-- **Interactive HTML Dashboard:** Open [`Project2_Sales_Data_Analysis/outputs/sales_interactive_dashboard.html`](Project2_Sales_Data_Analysis/outputs/sales_interactive_dashboard.html) in your browser.
+- **Interactive HTML Dashboard:** Open [`Project2_Sales_Data_Analysis/outputs/sales_interactive_dashboard.html`](Project2_Sales_Data_Analysis/outputs/sales_interactive_dashboard.html) in any browser.
 - **Key Financial Metrics:**
   - **Total Commercial Revenue:** $11,220,417.57
   - **Net Operating Profit:** $700,155.23
@@ -75,17 +72,29 @@ The repository encompasses two end-to-end analytical dashboard solutions:
 
 ---
 
+## 📁 Multi-Sheet Excel Dataset Structure
+
+### 1. [`datasets/covid_19_data.xlsx`](datasets/covid_19_data.xlsx)
+- `Sheet 1: Raw_Recorded_Data` — Original recorded time-series containing uncleaned/missing entries.
+- `Sheet 2: Cleaned_Data` — Fully cleaned, imputed, and feature-engineered dataset (CFR, Recovery Rate, Active Cases).
+- `Sheet 3: Country_Summary` — Latest cumulative statistics, rankings, and vaccination rates per country.
+- `Sheet 4: Global_Timeline` — Monthly aggregated global progression.
+
+### 2. [`datasets/sales_data.xlsx`](datasets/sales_data.xlsx)
+- `Sheet 1: Raw_Orders_Data` — Raw transactional records with uncleaned nulls.
+- `Sheet 2: Cleaned_Orders` — Cleaned orders with calculated profit margins and shipping days.
+- `Sheet 3: Monthly_Trends` — 36-month revenue, profit, quantity, and order count aggregations.
+- `Sheet 4: Customer_Segmentation` — Segment revenue, profit, and order distributions.
+- `Sheet 5: Product_Performance` — Category & Sub-Category profit margins and unit volumes.
+- `Sheet 6: Regional_Summary` — Regional and State-level sales and profit performance.
+
+---
+
 ## 📂 Repository Structure
 
 ```
 Mini-Projects-Data-Analytics-Visualization/
-├── .gitignore
-├── requirements.txt
 ├── README.md
-├── LICENSE
-├── run_all.py                                # Single-command runner for entire suite
-├── generate_datasets.py                      # Dataset generator (Excel & CSV)
-├── generate_notebooks.py                     # Jupyter Notebook builder
 │
 ├── datasets/                                 # Datasets in Excel & CSV formats
 │   ├── covid_19_data.xlsx                    # Multi-sheet Excel (Raw, Clean, Country, Timeline)
@@ -108,74 +117,63 @@ Mini-Projects-Data-Analytics-Visualization/
 │   │   ├── covid_interactive_dashboard.html  # Interactive Plotly dashboard
 │   │   └── covid_summary_metrics.json
 │   └── screenshots/
-│       └── covid19_executive_dashboard.png   # Submission Dashboard Screenshot
+│       └── covid19_executive_dashboard.png   # Dashboard Screenshot
 │
-├── Project2_Sales_Data_Analysis/
-│   ├── src/
-│   │   ├── __init__.py
-│   │   ├── data_loader.py                    # Missing value handling & business metrics
-│   │   ├── eda_analysis.py                   # Monthly trends, RFM, product & regional profits
-│   │   └── dashboard.py                      # High-res charts, executive screenshot & HTML dashboard
-│   ├── notebooks/
-│   │   └── Project2_Sales_Data_Analysis.ipynb
-│   ├── outputs/
-│   │   ├── monthly_sales_profit_trend.png
-│   │   ├── customer_segmentation.png
-│   │   ├── product_category_performance.png
-│   │   ├── regional_sales_profit_distribution.png
-│   │   ├── sales_interactive_dashboard.html  # Interactive Plotly dashboard
-│   │   └── sales_summary_metrics.json
-│   └── screenshots/
-│       └── sales_executive_dashboard.png     # Submission Dashboard Screenshot
-│
-└── docs/
-    ├── Lab_Sheet_09_Report.md                # Comprehensive Academic Lab Report
-    ├── Viva_Questions_and_Answers.md         # 35+ Viva preparation Q&A for MCA examiners
-    └── Business_Insights_and_Observations.md # Strategic business and public health insights
+└── Project2_Sales_Data_Analysis/
+    ├── src/
+    │   ├── __init__.py
+    │   ├── data_loader.py                    # Missing value handling & business metrics
+    │   ├── eda_analysis.py                   # Monthly trends, RFM, product & regional profits
+    │   └── dashboard.py                      # High-res charts, executive screenshot & HTML dashboard
+    ├── notebooks/
+    │   └── Project2_Sales_Data_Analysis.ipynb
+    ├── outputs/
+    │   ├── monthly_sales_profit_trend.png
+    │   ├── customer_segmentation.png
+    │   ├── product_category_performance.png
+    │   ├── regional_sales_profit_distribution.png
+    │   ├── sales_interactive_dashboard.html  # Interactive Plotly dashboard
+    │   └── sales_summary_metrics.json
+    └── screenshots/
+        └── sales_executive_dashboard.png     # Dashboard Screenshot
 ```
 
 ---
 
-## ⚡ Quick Start Guide
+## ⚡ Execution Guide
 
-### 1. Installation
-Clone the repository and install required packages:
-
+### 1. Run Project 1 (COVID-19 Analytics):
 ```bash
-git clone https://github.com/Rajendra7637/Mini-Projects-Data-Analytics-and-Visualization.git
-cd Mini-Projects-Data-Analytics-and-Visualization
-pip install -r requirements.txt
+cd Project1_COVID19_Data_Analysis/src
+python eda_analysis.py
+python dashboard.py
 ```
 
-### 2. Execute Entire Analytics Suite (Single Command)
-Run the automated pipeline to process data, perform EDA, and generate all dashboards and screenshots:
-
+### 2. Run Project 2 (Sales Analytics):
 ```bash
-python run_all.py
+cd Project2_Sales_Data_Analysis/src
+python eda_analysis.py
+python dashboard.py
 ```
 
-### 3. Open Interactive HTML Dashboards
-Launch the interactive dashboards directly in your web browser:
-- COVID-19 Dashboard: Open `Project1_COVID19_Data_Analysis/outputs/covid_interactive_dashboard.html`
-- Sales Dashboard: Open `Project2_Sales_Data_Analysis/outputs/sales_interactive_dashboard.html`
+### 3. Open Interactive HTML Dashboards:
+Double-click or open in any web browser:
+- `Project1_COVID19_Data_Analysis/outputs/covid_interactive_dashboard.html`
+- `Project2_Sales_Data_Analysis/outputs/sales_interactive_dashboard.html`
 
-### 4. Interactive Jupyter Notebooks
+### 4. Interactive Jupyter Notebooks:
+Launch Jupyter to explore interactive walkthroughs:
 ```bash
 jupyter lab
 ```
-Navigate to:
-- `Project1_COVID19_Data_Analysis/notebooks/Project1_COVID19_Data_Analysis.ipynb`
-- `Project2_Sales_Data_Analysis/notebooks/Project2_Sales_Data_Analysis.ipynb`
+- Open `Project1_COVID19_Data_Analysis/notebooks/Project1_COVID19_Data_Analysis.ipynb`
+- Open `Project2_Sales_Data_Analysis/notebooks/Project2_Sales_Data_Analysis.ipynb`
 
 ---
 
 ## 👨‍💻 Author & Attribution
 
-- **Student / Developer:** Rajendra Singh ([@Rajendra7637](https://github.com/Rajendra7637))
+- **Developer:** Rajendra Singh ([@Rajendra7637](https://github.com/Rajendra7637))
 - **Program:** Master of Computer Applications (MCA) – Semester III
-- **Academic Session:** 2026–2027
-- **Institution:** COER University, Roorkee, Uttarakhand, India
-- **Coursework:** Lab Sheet-09 (Mini Projects on Data Analytics and Visualization)
-
----
-*Licensed under the [MIT License](LICENSE).*
+- **Session:** 2026–2027
+- **Project:** Lab Sheet-09 (Mini Projects on Data Analytics and Visualization)

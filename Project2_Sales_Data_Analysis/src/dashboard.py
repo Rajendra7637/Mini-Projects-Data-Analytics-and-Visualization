@@ -185,7 +185,7 @@ def generate_sales_dashboard():
         ax_kpi.text(x_start + 0.11, 0.20, k["sub"], ha="center", va="center", fontsize=9,
                     color="#2d3436", transform=ax_kpi.transAxes)
 
-    ax_kpi.set_title("COER UNIVERSITY - RETAIL & COMMERCIAL SALES EXECUTIVE DASHBOARD",
+    ax_kpi.set_title("RETAIL & COMMERCIAL SALES EXECUTIVE DASHBOARD",
                      fontsize=16, fontweight="bold", pad=20, color="#2d3436")
 
     # Middle Left: Monthly Trend
@@ -272,7 +272,7 @@ def generate_sales_dashboard():
     fig_plotly.add_trace(go.Bar(x=df_region["Region"], y=df_region["Profit"], name="Regional Profit", marker=dict(color="#00b894")), row=2, col=2)
 
     fig_plotly.update_layout(
-        title_text="Sales Analytics Interactive Dashboard - COER University",
+        title_text="Sales Analytics Interactive Dashboard",
         height=850,
         showlegend=True,
         template="plotly_white"

@@ -152,7 +152,7 @@ def generate_covid_dashboard():
         ax_kpi.text(x_start + 0.11, 0.20, k["sub"], ha="center", va="center", fontsize=9,
                     color="#2d3436", transform=ax_kpi.transAxes)
 
-    ax_kpi.set_title("COER UNIVERSITY - COVID-19 GLOBAL EXECUTIVE ANALYTICS DASHBOARD",
+    ax_kpi.set_title("COVID-19 GLOBAL EXECUTIVE ANALYTICS DASHBOARD",
                      fontsize=16, fontweight="bold", pad=20, color="#2d3436")
 
     # Middle Left: Epidemic Waves
@@ -226,7 +226,7 @@ def generate_covid_dashboard():
     fig_plotly.add_trace(go.Bar(x=df_latest["Country"].head(10), y=df_latest["Case_Fatality_Rate"].head(10), name="CFR (%)", marker=dict(color="#e17055")), row=2, col=2)
 
     fig_plotly.update_layout(
-        title_text="COVID-19 Interactive Analytical Dashboard - COER University",
+        title_text="COVID-19 Interactive Analytical Dashboard",
         height=850,
         showlegend=True,
         template="plotly_white"
