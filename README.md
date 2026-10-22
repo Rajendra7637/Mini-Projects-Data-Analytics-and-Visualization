@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Executive Overview
+## Executive Overview
 
 This repository contains the complete implementation, datasets in Excel format, high-resolution dashboard screenshots, interactive web dashboards, and source code for **Lab Sheet-09: Mini Projects on Data Analytics and Visualization**.
 
@@ -31,27 +31,13 @@ The repository comprises two end-to-end analytical projects:
    - Regional distribution breakdown (West, East, Central, South).
    - High-resolution Executive Sales Dashboard Screenshot and browser-based Interactive Plotly Dashboard.
 
----
 
-## 📋 Submission Guidelines Compliance Checklist
 
-| Mandatory Submission Requirement | Delivered Repository Asset | Format & Description |
-|:---|:---|:---:|
-| **1. Datasets in Excel Form** | [`datasets/covid_19_data.xlsx`](datasets/covid_19_data.xlsx)<br>[`datasets/sales_data.xlsx`](datasets/sales_data.xlsx) | **Multi-Sheet Microsoft Excel (`.xlsx`)** workbooks with raw data, cleaned data, and multi-dimensional summary sheets. |
-| **2. Datasets in CSV Form** | [`datasets/covid_19_data.csv`](datasets/covid_19_data.csv)<br>[`datasets/sales_data.csv`](datasets/sales_data.csv) | Standard `.csv` |
-| **3. Dashboard Screenshots** | [`Project1_COVID19_Data_Analysis/screenshots/covid19_executive_dashboard.png`](Project1_COVID19_Data_Analysis/screenshots/covid19_executive_dashboard.png)<br>[`Project2_Sales_Data_Analysis/screenshots/sales_executive_dashboard.png`](Project2_Sales_Data_Analysis/screenshots/sales_executive_dashboard.png) | **300 DPI High-Resolution Executive Dashboard Screenshots** |
-| **4. Source Code** | [`Project1_COVID19_Data_Analysis/src/`](Project1_COVID19_Data_Analysis/src/)<br>[`Project2_Sales_Data_Analysis/src/`](Project2_Sales_Data_Analysis/src/) | Modular Python Scripts (Data loader, EDA, Dashboard generator) |
-| **5. Interactive Web Dashboards** | [`Project1_COVID19_Data_Analysis/outputs/covid_interactive_dashboard.html`](Project1_COVID19_Data_Analysis/outputs/covid_interactive_dashboard.html)<br>[`Project2_Sales_Data_Analysis/outputs/sales_interactive_dashboard.html`](Project2_Sales_Data_Analysis/outputs/sales_interactive_dashboard.html) | Standalone interactive **Plotly HTML dashboards** with tooltips and zooming |
-| **6. Jupyter Notebooks** | [`Project1_COVID19_Data_Analysis/notebooks/Project1_COVID19_Data_Analysis.ipynb`](Project1_COVID19_Data_Analysis/notebooks/Project1_COVID19_Data_Analysis.ipynb)<br>[`Project2_Sales_Data_Analysis/notebooks/Project2_Sales_Data_Analysis.ipynb`](Project2_Sales_Data_Analysis/notebooks/Project2_Sales_Data_Analysis.ipynb) | Interactive step-by-step `.ipynb` notebooks |
-
----
-
-## 📊 Dashboard Visualizations & Screenshots
+## Dashboard Visualizations & Screenshots
 
 ### 1. COVID-19 Executive Analytics Dashboard
 ![COVID-19 Executive Dashboard](Project1_COVID19_Data_Analysis/screenshots/covid19_executive_dashboard.png)
 
-- **Interactive HTML Dashboard:** Open [`Project1_COVID19_Data_Analysis/outputs/covid_interactive_dashboard.html`](Project1_COVID19_Data_Analysis/outputs/covid_interactive_dashboard.html) in any browser.
 - **Key Global Epidemiological Metrics:**
   - **Total Confirmed Infections:** 80,006,448
   - **Total Deaths:** 705,994 (Global CFR: 0.88%)
@@ -63,7 +49,6 @@ The repository comprises two end-to-end analytical projects:
 ### 2. Commercial Sales & Retail Performance Dashboard
 ![Sales Executive Dashboard](Project2_Sales_Data_Analysis/screenshots/sales_executive_dashboard.png)
 
-- **Interactive HTML Dashboard:** Open [`Project2_Sales_Data_Analysis/outputs/sales_interactive_dashboard.html`](Project2_Sales_Data_Analysis/outputs/sales_interactive_dashboard.html) in any browser.
 - **Key Financial Metrics:**
   - **Total Commercial Revenue:** $11,220,417.57
   - **Net Operating Profit:** $700,155.23
