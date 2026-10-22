@@ -1,0 +1,155 @@
+{
+    "global_kpis": {
+        "total_confirmed": 80006448,
+        "total_deaths": 705994,
+        "total_recovered": 73900724,
+        "total_vaccinated": 4682484804,
+        "case_fatality_rate_percent": 0.88,
+        "recovery_rate_percent": 92.37
+    },
+    "top_countries_by_cases": [
+        {
+            "Country": "India",
+            "Total_Cases": 52204325,
+            "Total_Deaths": 422738,
+            "Case_Fatality_Rate": 0.81,
+            "Vaccination_Rate": 179.34
+        },
+        {
+            "Country": "United States",
+            "Total_Cases": 12818209,
+            "Total_Deaths": 113444,
+            "Case_Fatality_Rate": 0.89,
+            "Vaccination_Rate": 179.34
+        },
+        {
+            "Country": "Brazil",
+            "Total_Cases": 5731558,
+            "Total_Deaths": 86810,
+            "Case_Fatality_Rate": 1.51,
+            "Vaccination_Rate": 179.34
+        },
+        {
+            "Country": "Russia",
+            "Total_Cases": 2064294,
+            "Total_Deaths": 32237,
+            "Case_Fatality_Rate": 1.56,
+            "Vaccination_Rate": 179.34
+        },
+        {
+            "Country": "Japan",
+            "Total_Cases": 1447871,
+            "Total_Deaths": 4198,
+            "Case_Fatality_Rate": 0.29,
+            "Vaccination_Rate": 179.34
+        },
+        {
+            "Country": "Germany",
+            "Total_Cases": 1347430,
+            "Total_Deaths": 6987,
+            "Case_Fatality_Rate": 0.52,
+            "Vaccination_Rate": 179.34
+        },
+        {
+            "Country": "France",
+            "Total_Cases": 1208397,
+            "Total_Deaths": 7121,
+            "Case_Fatality_Rate": 0.59,
+            "Vaccination_Rate": 179.34
+        },
+        {
+            "Country": "United Kingdom",
+            "Total_Cases": 1126786,
+            "Total_Deaths": 11290,
+            "Case_Fatality_Rate": 1.0,
+            "Vaccination_Rate": 179.34
+        },
+        {
+            "Country": "Italy",
+            "Total_Cases": 887243,
+            "Total_Deaths": 12181,
+            "Case_Fatality_Rate": 1.37,
+            "Vaccination_Rate": 179.34
+        },
+        {
+            "Country": "South Korea",
+            "Total_Cases": 596944,
+            "Total_Deaths": 1322,
+            "Case_Fatality_Rate": 0.22,
+            "Vaccination_Rate": 179.34
+        }
+    ],
+    "correlation_matrix": {
+        "New_Cases": {
+            "New_Cases": 1.0,
+            "New_Deaths": 0.9467,
+            "New_Recovered": 0.9992,
+            "New_Vaccinated": 0.6773,
+            "Case_Fatality_Rate": -0.0252
+        },
+        "New_Deaths": {
+            "New_Cases": 0.9467,
+            "New_Deaths": 1.0,
+            "New_Recovered": 0.9418,
+            "New_Vaccinated": 0.5715,
+            "Case_Fatality_Rate": 0.0521
+        },
+        "New_Recovered": {
+            "New_Cases": 0.9992,
+            "New_Deaths": 0.9418,
+            "New_Recovered": 1.0,
+            "New_Vaccinated": 0.6702,
+            "Case_Fatality_Rate": -0.0263
+        },
+        "New_Vaccinated": {
+            "New_Cases": 0.6773,
+            "New_Deaths": 0.5715,
+            "New_Recovered": 0.6702,
+            "New_Vaccinated": 1.0,
+            "Case_Fatality_Rate": -0.0315
+        },
+        "Case_Fatality_Rate": {
+            "New_Cases": -0.0252,
+            "New_Deaths": 0.0521,
+            "New_Recovered": -0.0263,
+            "New_Vaccinated": -0.0315,
+            "Case_Fatality_Rate": 1.0
+        }
+    },
+    "metadata": {
+        "total_rows": 432,
+        "countries_count": 12,
+        "date_range": [
+            "2020-01-01",
+            "2022-12-01"
+        ],
+        "null_counts_before": {
+            "Date": 0,
+            "Country": 0,
+            "Country_Code": 0,
+            "Population": 0,
+            "New_Cases": 0,
+            "New_Deaths": 0,
+            "New_Recovered": 14,
+            "New_Vaccinated": 13,
+            "Total_Cases": 0,
+            "Total_Deaths": 0,
+            "Total_Recovered": 0,
+            "Total_Vaccinated": 0
+        },
+        "null_counts_after": {
+            "Date": 0,
+            "Country": 0,
+            "Country_Code": 0,
+            "Population": 0,
+            "New_Cases": 0,
+            "New_Deaths": 0,
+            "New_Recovered": 0,
+            "New_Vaccinated": 0,
+            "Total_Cases": 0,
+            "Total_Deaths": 0,
+            "Total_Recovered": 0,
+            "Total_Vaccinated": 0
+        }
+    }
+}

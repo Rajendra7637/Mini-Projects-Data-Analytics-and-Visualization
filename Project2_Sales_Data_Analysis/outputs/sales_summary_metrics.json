@@ -1,0 +1,251 @@
+{
+    "financial_kpis": {
+        "total_revenue": 11220417.57,
+        "total_profit": 700155.23,
+        "profit_margin_percent": 6.24,
+        "total_transactions": 5000,
+        "average_order_value": 2244.08,
+        "total_units_sold": 22602
+    },
+    "customer_segmentation": [
+        {
+            "Segment": "Consumer",
+            "Sales": 5936399.7,
+            "Profit": 367657.39,
+            "Orders": 2613,
+            "Margin": 6.19
+        },
+        {
+            "Segment": "Corporate",
+            "Sales": 3304026.38,
+            "Profit": 197168.51,
+            "Orders": 1507,
+            "Margin": 5.97
+        },
+        {
+            "Segment": "Home Office",
+            "Sales": 1979991.49,
+            "Profit": 135329.33,
+            "Orders": 880,
+            "Margin": 6.83
+        }
+    ],
+    "product_categories": [
+        {
+            "Category": "Furniture",
+            "Sales": 2711495.03,
+            "Profit": -277717.7,
+            "Margin": -10.24
+        },
+        {
+            "Category": "Office Supplies",
+            "Sales": 738943.11,
+            "Profit": 101412.01,
+            "Margin": 13.72
+        },
+        {
+            "Category": "Technology",
+            "Sales": 7769979.43,
+            "Profit": 876460.92,
+            "Margin": 11.28
+        }
+    ],
+    "product_subcategories": [
+        {
+            "Category": "Technology",
+            "Sub_Category": "Copiers",
+            "Sales": 3550244.33,
+            "Profit": 733227.71,
+            "Quantity": 1934,
+            "Discount": 11.6,
+            "Margin": 20.65
+        },
+        {
+            "Category": "Technology",
+            "Sub_Category": "Machines",
+            "Sales": 2804774.9,
+            "Profit": -27537.71,
+            "Quantity": 1938,
+            "Discount": 11.4,
+            "Margin": -0.98
+        },
+        {
+            "Category": "Technology",
+            "Sub_Category": "Phones",
+            "Sales": 1176454.6,
+            "Profit": 111586.92,
+            "Quantity": 1888,
+            "Discount": 10.0,
+            "Margin": 9.49
+        },
+        {
+            "Category": "Furniture",
+            "Sub_Category": "Tables",
+            "Sales": 1135216.36,
+            "Profit": -198100.34,
+            "Quantity": 1672,
+            "Discount": 11.1,
+            "Margin": -17.45
+        },
+        {
+            "Category": "Furniture",
+            "Sub_Category": "Bookcases",
+            "Sales": 754614.38,
+            "Profit": -111210.21,
+            "Quantity": 1766,
+            "Discount": 12.0,
+            "Margin": -14.74
+        },
+        {
+            "Category": "Furniture",
+            "Sub_Category": "Chairs",
+            "Sales": 662401.98,
+            "Profit": 10576.95,
+            "Quantity": 1915,
+            "Discount": 12.0,
+            "Margin": 1.6
+        },
+        {
+            "Category": "Office Supplies",
+            "Sub_Category": "Appliances",
+            "Sales": 306633.89,
+            "Profit": 33360.88,
+            "Quantity": 1264,
+            "Discount": 10.6,
+            "Margin": 10.88
+        },
+        {
+            "Category": "Office Supplies",
+            "Sub_Category": "Storage",
+            "Sales": 245597.54,
+            "Profit": 17683.34,
+            "Quantity": 1244,
+            "Discount": 10.6,
+            "Margin": 7.2
+        },
+        {
+            "Category": "Technology",
+            "Sub_Category": "Accessories",
+            "Sales": 238505.6,
+            "Profit": 59184.0,
+            "Quantity": 1955,
+            "Discount": 12.8,
+            "Margin": 24.81
+        },
+        {
+            "Category": "Furniture",
+            "Sub_Category": "Furnishings",
+            "Sales": 159262.31,
+            "Profit": 21015.9,
+            "Quantity": 1650,
+            "Discount": 13.3,
+            "Margin": 13.2
+        },
+        {
+            "Category": "Office Supplies",
+            "Sub_Category": "Binders",
+            "Sales": 61179.01,
+            "Profit": 16830.47,
+            "Quantity": 1251,
+            "Discount": 12.6,
+            "Margin": 27.51
+        },
+        {
+            "Category": "Office Supplies",
+            "Sub_Category": "Paper",
+            "Sales": 54667.78,
+            "Profit": 17678.15,
+            "Quantity": 1287,
+            "Discount": 11.3,
+            "Margin": 32.34
+        },
+        {
+            "Category": "Office Supplies",
+            "Sub_Category": "Art",
+            "Sales": 36706.87,
+            "Profit": 6652.06,
+            "Quantity": 1358,
+            "Discount": 11.2,
+            "Margin": 18.12
+        },
+        {
+            "Category": "Office Supplies",
+            "Sub_Category": "Envelopes",
+            "Sales": 34158.02,
+            "Profit": 9207.11,
+            "Quantity": 1480,
+            "Discount": 10.8,
+            "Margin": 26.95
+        }
+    ],
+    "regional_performance": [
+        {
+            "Region": "Central",
+            "Sales": 2641552.79,
+            "Profit": 143761.71,
+            "Orders": 1232,
+            "Margin": 5.44
+        },
+        {
+            "Region": "East",
+            "Sales": 3190548.09,
+            "Profit": 208511.7,
+            "Orders": 1380,
+            "Margin": 6.54
+        },
+        {
+            "Region": "South",
+            "Sales": 1852876.59,
+            "Profit": 122008.98,
+            "Orders": 795,
+            "Margin": 6.58
+        },
+        {
+            "Region": "West",
+            "Sales": 3535440.1,
+            "Profit": 225872.84,
+            "Orders": 1593,
+            "Margin": 6.39
+        }
+    ],
+    "metadata": {
+        "total_transactions": 5000,
+        "unique_customers": 800,
+        "date_range": [
+            "2023-01-01",
+            "2025-12-30"
+        ],
+        "null_counts_before": {
+            "Order_ID": 0,
+            "Order_Date": 0,
+            "Ship_Date": 0,
+            "Ship_Mode": 108,
+            "Customer_ID": 0,
+            "Segment": 0,
+            "Region": 0,
+            "State": 0,
+            "Category": 0,
+            "Sub_Category": 0,
+            "Sales": 0,
+            "Quantity": 0,
+            "Discount": 168,
+            "Profit": 0
+        },
+        "null_counts_after": {
+            "Order_ID": 0,
+            "Order_Date": 0,
+            "Ship_Date": 0,
+            "Ship_Mode": 0,
+            "Customer_ID": 0,
+            "Segment": 0,
+            "Region": 0,
+            "State": 0,
+            "Category": 0,
+            "Sub_Category": 0,
+            "Sales": 0,
+            "Quantity": 0,
+            "Discount": 0,
+            "Profit": 0
+        }
+    }
+}
